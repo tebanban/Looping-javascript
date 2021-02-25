@@ -2,5 +2,10 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
+for(i=0; i < par.length; i++){
+    console.log(par.charAt(i) + ' :' + i)
+}
+
 
 console.log(counts);
+console.log(par.length)

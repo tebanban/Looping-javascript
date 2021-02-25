@@ -8,4 +8,11 @@ var arr = [4,5,734,43,45];
 // }
 //*****************
 
+for (let index = 0; index < 10; index++) {
+    let random= Math.floor(Math.random() *10);
+    arr.push(random)
+}
+
+
+
 console.log(arr);
