@@ -5,7 +5,7 @@ var people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darne
 for(let i= 0; i < people.length; i++){
     let  waldo= 'waldo'
 
-    if (people[i].toLowerCase() === waldo) {
+    if (people[i].toLowerCase() === waldo) { // aqui cambiamos el valor del indice a minusculas
         console.log(i)
         
     }
